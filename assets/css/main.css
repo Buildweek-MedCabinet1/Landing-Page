@@ -2764,3 +2764,13 @@ body.is-preload #header footer {
 figcaption {
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  #aboutphotos {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    border-radius: 50%;
+  }
+}
