@@ -17,6 +17,11 @@
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+    <script>
+      window.onload = function () {
+        var context = new AudioContext();
+      };
+    </script>
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -43,7 +48,7 @@
     <section id="banner">
       <header>
         <h2>Questions to Consider</h2>
-        <ul>
+        <ul style="list-style-type: none;">
           <li>What am I suffering from?</li>
           <li>What method is best for me?</li>
           <li>How often do I need to dose?</li>
@@ -228,11 +233,10 @@
         </div>
       </form>
     </article>
-
     <audio controls autoplay>
       <source
         src="music\(80s Throwback) Bob Marley - Redemption Song (Main).mp3"
-        type="audio/mpeg"
+        type="audio/mp3"
       />
       Your browser does not support the audio element.
     </audio>
